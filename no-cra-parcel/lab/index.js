@@ -1,13 +1,14 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from "react";
+import ReactDOM from "react-dom";
+import ArrayBox from "./Components/ArrayBox";
 
-class App extends React.Component {
-    render(){
-        return(
-            <h1>Hello World~</h1>
-        )
-    }
+function App() {
+  return (
+    <>
+      <ArrayBox />
+    </>
+  );
 }
 
-const rootNode = document.getElementById('root')
-ReactDOM.render(<App />, rootNode)
+const rootNode = document.getElementById("root");
+ReactDOM.render(<App />, rootNode);
